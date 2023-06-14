@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.wrapper{
+    width: 1180px;
+    margin: auto;
+}
+header{
+    background:url(in\ the\ city\ at\ night.jpg);
+    height: 100vh;
+    -webkit-background-size:cover ;
+    background-size: contain ;
+    background-position:center center ;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    color: azure;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.nav-area li a:hover{
+    background: white;
+    color: black;
+
+}
+h2{
+    color: burlywood;
+}
+h1{
+    color: rgb(231, 11, 11);
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+img.icon{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
